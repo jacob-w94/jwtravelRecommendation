@@ -1,10 +1,15 @@
 #navBar {
-    display: flex;
-    width: 100%;
-    background-color: navy;
+  display: flex;
+  width: 100%;
+  background-color: navy;
 }
 
 #navBarIcon {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
+  margin: auto 10px auto 10px;
+}
+
+#navLabel {
+  color: white;
 }
