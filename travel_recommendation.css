@@ -12,13 +12,16 @@
 
 #navLabel {
   color: white;
+}
+
+#linksDiv {
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
 
 .navLink {
-    color: white;
-    text-decoration: none;
-    padding: 8px;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
 }
