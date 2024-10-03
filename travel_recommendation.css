@@ -12,9 +12,13 @@
 
 #navLabel {
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .navLink {
     color: white;
     text-decoration: none;
+    padding: 8px;
 }
