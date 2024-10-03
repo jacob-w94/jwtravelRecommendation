@@ -7,9 +7,14 @@
 #navBarIcon {
   width: 50px;
   height: 50px;
-  margin: auto 10px auto 10px;
+  margin: auto 40px auto 10px;
 }
 
 #navLabel {
   color: white;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
 }
