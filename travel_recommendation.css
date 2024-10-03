@@ -25,3 +25,24 @@
   text-decoration: none;
   padding: 8px;
 }
+
+#navSearch {
+  height: 40px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.navButton {
+    margin: auto;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+body {
+    background-image: url('rio.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
