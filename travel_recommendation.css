@@ -103,12 +103,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 80px); /* Adjust height to fit under navbar */
+  min-height: calc(100vh - 80px);
   padding: 20px;
 }
 
 form {
-  background-color: #008080; /* Teal background */
+  background-color: #008080;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -129,7 +129,7 @@ form textarea {
   margin-top: 5px;
   margin-bottom: 15px;
   border: none;
-  border-radius: 8px; /* Rounded inputs */
+  border-radius: 8px;
   font-size: 1rem;
   background-color: #fff;
 }
@@ -152,4 +152,27 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #e0e0e0;
+}
+
+.searchResultCard {
+  background-color: #008080;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex; /* Add this */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  border-radius: 20px;
+}
+.searchResultCard > h2 {
+  color: #ffffff;
+}
+.searchResultCard > p {
+  color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%
+}
+
+.searchResultCard > img {
+  width: 300px;
 }

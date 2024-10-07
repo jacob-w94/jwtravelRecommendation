@@ -3,50 +3,20 @@
     {
       "id": 1,
       "name": "Australia",
-      "cities": [
-        {
-          "name": "Sydney, Australia",
-          "imageUrl": "sydney.jpg",
-          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-        },
-        {
-          "name": "Melbourne, Australia",
-          "imageUrl": "melbourne.jpg",
-          "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-        }
-      ]
+      "imageUrl": "sydney.jpg",
+      "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
     },
     {
       "id": 2,
       "name": "Japan",
-      "cities": [
-        {
-          "name": "Tokyo, Japan",
-          "imageUrl": "tokyo.jpg",
-          "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-        },
-        {
-          "name": "Kyoto, Japan",
-          "imageUrl": "kyoto.jpg",
-          "description": "Known for its historic temples, gardens, and traditional tea houses."
-        }
-      ]
+      "imageUrl": "tokyo.jpg",
+      "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
     },
     {
       "id": 3,
       "name": "Brazil",
-      "cities": [
-        {
-          "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "rio.jpg",
-          "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-        },
-        {
-          "name": "São Paulo, Brazil",
-          "imageUrl": "sao-paulo.jpg",
-          "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-        }
-      ]
+      "imageUrl": "rio.jpg",
+      "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
     }
   ],
   "temples": [

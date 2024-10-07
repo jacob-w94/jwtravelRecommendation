@@ -20,31 +20,50 @@
       </div>
       <div id="searchDiv">
         <input type="text" id="navSearch" />
-        <button class="navButton">Search</button>
-        <button class="navButton">Clear</button>
+        <button class="navButton" onclick="searchButton()">Search</button>
+        <button class="navButton" onclick="clearSearch()">Clear</button>
       </div>
     </div>
 
     <!-- Main Page -->
-    <div
-      style="
-        background-color: #008080;
-        width: 250px;
-        padding: 20px;
-        margin: 30px;
-        border-radius: 20px;
-      "
-    >
-      <h1 style="color: white">
-        Explore the World: Your Next Adventure Awaits
-      </h1>
-      <p style="color: white">
-        Discover breathtaking destinations, plan your dream getaway, and create
-        unforgettable memories with our expert travel guides, insider tips, and
-        personalized itineraries. Whether you're seeking a tropical paradise, a
-        cultural city escape, or a rugged outdoor adventure, we make it easy to
-        turn your travel dreams into reality.
-      </p>
+    <div style="display: flex; width: 100%; justify-content: space-between">
+      <div
+        style="
+          background-color: #008080;
+          width: 250px;
+          padding: 20px;
+          margin: 30px;
+          border-radius: 20px;
+        "
+      >
+        <h1 style="color: white">
+          Explore the World: Your Next Adventure Awaits
+        </h1>
+        <p style="color: white">
+          Discover breathtaking destinations, plan your dream getaway, and
+          create unforgettable memories with our expert travel guides, insider
+          tips, and personalized itineraries. Whether you're seeking a tropical
+          paradise, a cultural city escape, or a rugged outdoor adventure, we
+          make it easy to turn your travel dreams into reality.
+        </p>
+      </div>
+      <div id="searchResults" style="width: 50%">
+        <div class="searchResultCard" id="cardNumber0" style="display: none;">
+          <h2 id="titleNumber0"></h2>
+          <p id="descriptionNumber0"></p>
+          <img id="imgNumber0" src="" alt="" />
+        </div>
+        <div class="searchResultCard" id="cardNumber1" style="display: none;">
+          <h2 id="titleNumber1"></h2>
+          <p id="descriptionNumber1"></p>
+          <img id="imgNumber1" src="" alt="" />
+        </div>
+        <div class="searchResultCard" id="cardNumber2" style="display: none;">
+          <h2 id="titleNumber2"></h2>
+          <p id="descriptionNumber2"></p>
+          <img id="imgNumber2" src="" alt="" />
+        </div>
+      </div>
     </div>
   </body>
   <script src="travel_recommendation.js"></script>
