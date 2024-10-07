@@ -10,7 +10,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box; /* Ensures padding is included in the total width */
+  box-sizing: border-box;
 }
 
 #navBarIcon {
@@ -25,18 +25,17 @@
   font-size: 1.5rem;
 }
 
-/* Left side container to hold the logo and title */
 #leftDiv {
   display: flex;
   align-items: center;
-  flex-grow: 1; /* Allow this section to take up available space */
+  flex-grow: 1;
 }
 
 #linksDiv {
   display: flex;
-  justify-content: center; /* Centers the links within its space */
-  gap: 20px; /* Space between the links */
-  flex-grow: 2; /* Make this div expand and take more space */
+  justify-content: center;
+  gap: 20px;
+  flex-grow: 2;
 }
 
 .navLink {
@@ -80,7 +79,7 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-right: 20px; /* Add padding to prevent overflow */
+  padding-right: 20px;
 }
 
 body {
@@ -89,5 +88,9 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   margin: 0;
-  padding-top: 80px; /* Accounts for fixed header */
+  padding-top: 80px;
+}
+
+#aboutUsDiv {
+  display: flex;
 }
