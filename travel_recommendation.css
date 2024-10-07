@@ -97,6 +97,7 @@ body {
 
 #contactFormWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 80px); /* Adjust height to fit under navbar */
