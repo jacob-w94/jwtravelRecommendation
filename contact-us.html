@@ -18,7 +18,7 @@
         <a class="navLink" href="about-us.html">About Us</a>
         <a class="navLink" href="contact-us.html">Contact Us</a>
       </div>
-      <div id="searchDiv" style="visibility: hidden;">
+      <div id="searchDiv" style="visibility: hidden">
         <input type="text" id="navSearch" />
         <button class="navButton">Search</button>
         <button class="navButton">Clear</button>
@@ -27,8 +27,23 @@
 
     <!-- contact form -->
 
-    <div>
-      <!-- <form action=""></form> -->
+    <div id="contactFormWrapper">
+      <form action="/submit_contact_form" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="subject">Subject:</label><br />
+        <input type="text" id="subject" name="subject" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
   <script src="travel_recommendation.js"></script>
