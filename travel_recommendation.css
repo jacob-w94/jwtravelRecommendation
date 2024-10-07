@@ -93,6 +93,9 @@ body {
 
 #aboutUsDiv {
   display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 #contactFormWrapper {
