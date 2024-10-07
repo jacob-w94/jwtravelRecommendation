@@ -1,8 +1,6 @@
 var globalVariable;
 async function searchButton() {
   const searchResults = await getUserData();
-  console.log(searchResults);
-  console.log(searchResults.length);
   globalVariable = searchResults;
 
   document.getElementById("cardNumber0").style.display = "none";

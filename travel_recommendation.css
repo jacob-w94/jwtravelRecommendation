@@ -182,8 +182,8 @@ form input[type="submit"]:hover {
   padding: 20px;
   margin: 30px;
   border-radius: 20px;
-  min-height: 300px; 
-  max-height: 350px;
+  height: 500px; 
+  min-height: 500px;
   box-sizing: border-box; 
-  overflow-y: auto; 
+  overflow: hidden;
 }
